@@ -62,12 +62,6 @@ class Human
         y += s * sin(theta)
     }
 
-    fun moveTo(targetX: Double, targetY: Double) {
-        x = targetX
-        y = targetY
-        println("${getHumanFullName()} перемещён в точку (%.2f, %.2f)".format(x, y))
-    }
-
     fun printState(id: Int) {
         println(String.format(
             "Human%d: ФИО: %s, возраст: %d, скорость: %.2f ед/с, позиция: (%.2f, %.2f)",
