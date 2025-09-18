@@ -2,8 +2,9 @@ import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.random.Random
+import kotlinx.coroutines.*
 
-class Human
+open class Human
 {
     var name: String = ""
     var surname: String = ""
@@ -55,7 +56,7 @@ class Human
         if (value > 0.0) time = value else println("time должно быть > 0")
     }
 
-    fun move() {
+    open fun move() {
         val theta = Random.nextDouble(0.0, 2.0 * PI)
         val s = speed * time
         x += s * cos(theta)
@@ -64,24 +65,58 @@ class Human
 
     fun printState(id: Int) {
         println(String.format(
-            "Human%d: ФИО: %s, возраст: %d, скорость: %.2f ед/с, позиция: (%.2f, %.2f)",
-            id, getHumanFullName(), getHumanAge(), speed, x, y
+            "ФИО: %s, возраст: %d, скорость: %.2f ед/с, позиция: (%.2f, %.2f)",
+            getHumanFullName(), getHumanAge(), speed, x, y
         ))
     }
 }
 
-fun main(){
-    val humans = List(20) { i ->
-        Human("Человек${i + 1}", "Иванов", "Тестович", 18 + (i % 5), (1..5).random().toDouble(), 1.0, 0.0, 0.0)
-    }
+class Driver: Human{
+    constructor(_name: String, _surname: String, _second_name: String, _age: Int, _speed: Double, _time: Double, _x: Double, _y: Double) : super(_name, _surname, _second_name, _age, _speed, _time, _x, _y)
 
+    override fun move() {
+        val s = speed * time
+        x += s
+    }
+}
+
+suspend fun main() = coroutineScope{
     val simulationTime = 10
+    val speed = 36.0
+    val driver = Driver("Иван", "Иванов", "Иванович", 27, speed, 1.0, 0.0, 0.0)
+    val firstHuman = Human("Петр", "Петров", "Петрович", 53, 2.0, 1.0, 0.0, 0.0)
+    val secondHuman = Human("Владимир", "Владимиров", "Влвдимирович", 34, 3.0, 1.0, 0.0, 0.0)
 
-    for (t in 1..simulationTime) {
-        println("Шаг времени $t")
-        humans.forEachIndexed { idx, human ->
-            human.move()
-            human.printState(idx + 1)
+    val jobs = listOf(
+        launch(Dispatchers.Default) {
+            repeat(simulationTime) { step ->
+                driver.move()
+                println("Шаг ${step + 1} — Driver")
+                driver.printState(1)
+                delay((driver.time * 1000).toLong())
+            }
+        },
+        launch(Dispatchers.Default) {
+            repeat(simulationTime) { step ->
+                firstHuman.move()
+                println("Шаг ${step + 1} — Human1")
+                firstHuman.printState(2)
+                delay((firstHuman.time * 1000).toLong())
+            }
+        },
+        launch(Dispatchers.Default) {
+            repeat(simulationTime) { step ->
+                secondHuman.move()
+                println("Шаг ${step + 1} — Human2")
+                secondHuman.printState(3)
+                delay((secondHuman.time * 1000).toLong())
+            }
         }
-    }
+    )
+
+    jobs.joinAll()
+
+    driver.printState(1)
+    firstHuman.printState(2)
+    secondHuman.printState(3)
 }
