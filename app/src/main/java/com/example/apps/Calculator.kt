@@ -1,27 +1,20 @@
-package com.example.calculator
+package com.example.apps
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import android.widget.Button
 import android.widget.TextView
-import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.calculator.ui.theme.CalculatorTheme
+import androidx.activity.ComponentActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : ComponentActivity() {
+class Calculator : ComponentActivity() {
     private lateinit var tvResult: TextView
     private var currentInput: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_calculator)
 
         tvResult = findViewById(R.id.tvResult)
 
@@ -120,8 +113,13 @@ class MainActivity : ComponentActivity() {
         btnEquals.setOnClickListener {
             try {
                 val result = evalExpression(currentInput)
-                tvResult.text = result.toString()
-                currentInput = result.toString()
+                if (result.toString() == currentInput) {
+                    tvResult.text = ""
+                    currentInput = ""
+                } else {
+                    tvResult.text = result.toString()
+                    currentInput = result.toString()
+                }
             } catch (e: Exception) {
                 tvResult.text = "Ошибка"
                 currentInput = ""

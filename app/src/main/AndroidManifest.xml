@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Mediaplayer"
+            android:exported="false" />
     </application>
 
 </manifest>
