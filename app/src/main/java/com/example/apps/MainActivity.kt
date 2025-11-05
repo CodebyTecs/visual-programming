@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         });
 
         bGoToMediaPlayerActivity.setOnClickListener({
-            val randomIntent = Intent(this, Mediaplayer::class.java)
+            val randomIntent = Intent(this, Player::class.java)
             startActivity(randomIntent)
         });
     }

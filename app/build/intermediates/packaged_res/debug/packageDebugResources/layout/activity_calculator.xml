@@ -13,7 +13,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.3" />
 
-    <!-- Экран -->
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="0dp"
@@ -26,7 +25,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Кнопка 7 -->
     <Button
         android:id="@+id/btn7"
         android:layout_width="0dp"
@@ -37,7 +35,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 8 -->
     <Button
         android:id="@+id/btn8"
         android:layout_width="0dp"
@@ -48,7 +45,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 9 -->
     <Button
         android:id="@+id/btn9"
         android:layout_width="0dp"
@@ -59,7 +55,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Деление -->
     <Button
         android:id="@+id/btnDivide"
         android:layout_width="0dp"
@@ -71,7 +66,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 4 -->
     <Button
         android:id="@+id/btn4"
         android:layout_width="0dp"
@@ -82,7 +76,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 5 -->
     <Button
         android:id="@+id/btn5"
         android:layout_width="0dp"
@@ -93,7 +86,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 6 -->
     <Button
         android:id="@+id/btn6"
         android:layout_width="0dp"
@@ -104,7 +96,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Умножение -->
     <Button
         android:id="@+id/btnMultiply"
         android:layout_width="0dp"
@@ -116,7 +107,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 1 -->
     <Button
         android:id="@+id/btn1"
         android:layout_width="0dp"
@@ -127,7 +117,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 2 -->
     <Button
         android:id="@+id/btn2"
         android:layout_width="0dp"
@@ -138,7 +127,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 3 -->
     <Button
         android:id="@+id/btn3"
         android:layout_width="0dp"
@@ -149,7 +137,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Минус -->
     <Button
         android:id="@+id/btnMinus"
         android:layout_width="0dp"
@@ -161,7 +148,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Кнопка 0 -->
     <Button
         android:id="@+id/btn0"
         android:layout_width="0dp"
@@ -172,7 +158,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Точка -->
     <Button
         android:id="@+id/btnDot"
         android:layout_width="0dp"
@@ -183,7 +168,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Равно -->
     <Button
         android:id="@+id/btnEquals"
         android:layout_width="0dp"
@@ -194,7 +178,6 @@
         app:layout_constraintWidth_percent="0.25"
         app:layout_constraintHeight_percent="0.15"/>
 
-    <!-- Плюс -->
     <Button
         android:id="@+id/btnPlus"
         android:layout_width="0dp"
