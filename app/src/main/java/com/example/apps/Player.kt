@@ -188,7 +188,6 @@ class Player : AppCompatActivity() {
             mp.start()
             handler.post(updater)
             playBtn.setImageResource(R.drawable.vector_pause_button)
-            Toast.makeText(this, "▶ $title", Toast.LENGTH_SHORT).show()
         }
         mp.setOnCompletionListener {
             currentIndex = (currentIndex + 1) % trackUris.size
