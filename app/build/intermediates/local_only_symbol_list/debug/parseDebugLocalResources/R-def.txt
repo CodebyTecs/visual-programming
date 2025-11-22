@@ -16,6 +16,7 @@ drawable vector_list_button
 drawable vector_pause_button
 drawable vector_play_button
 drawable vector_stop_button
+id back_to_main
 id backbtn
 id btn0
 id btn1
@@ -35,6 +36,7 @@ id btnMultiply
 id btnPlus
 id current_time
 id forwardbtn
+id linearLayout
 id listbtn
 id ll_wrapper
 id main
@@ -46,9 +48,18 @@ id time_wrapper
 id total_time
 id track_title
 id tvResult
+id tv_activityContext
+id tv_alt
+id tv_appContext
+id tv_curtime
+id tv_lat
+id tv_lon
+id tv_notification
 id wrapper_main
 layout activity_calculator
+layout activity_location
 layout activity_main
+layout activity_network
 layout activity_player
 mipmap ic_launcher
 mipmap ic_launcher_round
