@@ -13,6 +13,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.example.calculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -55,6 +56,9 @@
             android:exported="true" />
         <activity
             android:name="com.example.android_notes.activities.Network"
+            android:exported="true" />
+        <activity
+            android:name="com.example.apps.Sockets"
             android:exported="false" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"

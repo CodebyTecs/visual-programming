@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:2:1-49:12
 MERGED from [com.google.android.material:material:1.10.0] /Users/tecs/.gradle/caches/8.13/transforms/438cca197d86f76e3f9d180c7417a14e/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tecs/.gradle/caches/8.13/transforms/a0d4240764ccc349d8b070c3bb60a576/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/tecs/.gradle/caches/8.13/transforms/36ab2c4a9630dd93a93efdcf5e7f87a9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -104,16 +104,20 @@ ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/And
 	android:name
 		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:7:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:8:5-79
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:8:5-80
 	android:name
 		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:8:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:9:5-80
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:10:22-64
 application
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:11:5-43:19
-INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:11:5-43:19
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:12:5-47:19
+INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:12:5-47:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/tecs/.gradle/caches/8.13/transforms/438cca197d86f76e3f9d180c7417a14e/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/tecs/.gradle/caches/8.13/transforms/438cca197d86f76e3f9d180c7417a14e/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tecs/.gradle/caches/8.13/transforms/a0d4240764ccc349d8b070c3bb60a576/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -147,65 +151,71 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tecs
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/tecs/.gradle/caches/8.13/transforms/28ae8fb4b18a3dfac3c9ab4040a2c8dc/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:19:9-40
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:20:9-40
 	android:dataExtractionRules
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:13:9-65
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:14:9-65
 activity#com.example.apps.MainActivity
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:20:9-30:20
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:21:9-31:20
 	android:label
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:23:13-45
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:24:13-45
 	android:exported
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:22:13-36
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:23:13-36
 	android:theme
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:24:13-44
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:25:13-44
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:22:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:25:13-29:29
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.example.apps.Calculator
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:31:9-33:39
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:32:9-34:39
 	android:exported
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:33:13-36
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:32:13-39
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:33:13-39
 activity#com.example.apps.Player
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:34:9-36:39
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:35:9-37:39
 	android:exported
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:35:13-35
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:36:13-35
 activity#com.example.android_notes.activities.Locations
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:37:9-39:39
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:38:9-40:39
 	android:exported
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:39:13-36
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:38:13-74
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:39:13-74
 activity#com.example.android_notes.activities.Network
-ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:40:9-42:40
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:41:9-43:39
 	android:exported
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:42:13-37
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:41:13-72
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:42:13-72
+activity#com.example.apps.Sockets
+ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:44:9-46:40
+	android:exported
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml:45:13-36
 uses-sdk
 INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/tecs/AndroidStudioProjects/visual-programming/app/src/main/AndroidManifest.xml

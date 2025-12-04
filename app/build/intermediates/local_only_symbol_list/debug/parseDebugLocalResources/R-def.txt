@@ -44,6 +44,7 @@ id middleGuideline
 id playbtn
 id restartbtn
 id seekbar
+id send_client_data
 id time_wrapper
 id total_time
 id track_title
@@ -51,16 +52,19 @@ id tvResult
 id tv_activityContext
 id tv_alt
 id tv_appContext
+id tv_client
 id tv_curtime
 id tv_lat
 id tv_lon
 id tv_notification
+id tv_server
 id wrapper_main
 layout activity_calculator
 layout activity_location
 layout activity_main
 layout activity_network
 layout activity_player
+layout activity_sockets
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

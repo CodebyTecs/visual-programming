@@ -3531,6 +3531,7 @@ int id seekbar 0x7f0801aa
 int id select_dialog_listview 0x7f0801ab
 int id selected 0x7f0801ac
 int id selection_type 0x7f0801ad
+int id send_client_data 0x7f08022a
 int id sharedValueSet 0x7f0801ae
 int id sharedValueUnset 0x7f0801af
 int id shortcut 0x7f0801b0
@@ -3622,10 +3623,12 @@ int id tvResult 0x7f080207
 int id tv_activityContext 0x7f080228
 int id tv_alt 0x7f080225
 int id tv_appContext 0x7f080229
+int id tv_client 0x7f08022b
 int id tv_curtime 0x7f080226
 int id tv_lat 0x7f080208
 int id tv_lon 0x7f080209
 int id tv_notification 0x7f080227
+int id tv_server 0x7f08022c
 int id unchecked 0x7f08020a
 int id uniform 0x7f08020b
 int id unlabeled 0x7f08020c
@@ -3774,6 +3777,7 @@ int layout activity_location 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_network 0x7f0b001f
 int layout activity_player 0x7f0b0020
+int layout activity_sockets 0x7f0b0070
 int layout custom_dialog 0x7f0b0021
 int layout design_bottom_navigation_item 0x7f0b0022
 int layout design_bottom_sheet_dialog 0x7f0b0023
